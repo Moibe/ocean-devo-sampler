@@ -1,6 +1,6 @@
 import gradio as gr
 
-version = "1.1.2"
+version = "2.1.2"
 env = "dev"
 aplicacion = "sampler-dev"
 
