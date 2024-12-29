@@ -1,13 +1,13 @@
 import gradio as gr
 
-version = "3.1.2"
+version = "3.2.2"
 env = "dev"
 aplicacion = "sampler-dev"
 
 seleccion_api = "eligeAOB" #eligeGratisOCosto , eligeAOB o eligeGratisOCosto
 max_size = 20
 #Quota o Costo
-api_zero = ("Moibe/image-blend", "gratis")
+api_zero = ("Moibe/image-blend", "quota")
 api_cost = ("Moibe/image-blend", "costo")
 #A o B
 api_a = ("Moibe/sampler", "gratis") #Para music-sampler en particular aquí la diferencia será el formato: mp3
